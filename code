@@ -1,0 +1,11 @@
+package com.company;
+
+public class Main {
+    public static void main(String[] args) {
+        for (int i = 1;i<=10;i++)
+        {
+            double j = i;
+            System.out.println( "Число №" + i + " = " + (1/j) );
+        }
+    }
+}
